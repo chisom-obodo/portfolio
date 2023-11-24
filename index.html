@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-m">
+        <div class="px-4 pt-5 my-5 text-center border-bottom">
+            <h1 class="display-4 fw-bold text-body-emphasis">I'm Esther</h1>
+            <div class="container px-5"><img src="me.jpg" class="rounded-circle" width="200" height="200"
+                    loading="lazy"></div>
+            <div class="col-lg-6 mx-auto">
+                <h3 class="">a Programmer.</h3>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                    <button type="button" class="btn btn-secondary btn-lg px-4 me-sm-3"><a
+                            href="#Contact-me">Contact-me</a></button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4"><a
+                            href="#My-skills">My-skills</a></button>
+                </div>
+            </div>
+            <div class="overflow-hidden" style="max-height: 30vh;">
+                <div class="container px-5">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- second paragraph -->
+    <div class="container">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="developer.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="200"
+                    height="200" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hello</h1>
+                <p class="lead">I am a Web Developer. I'm a student in the ongoing GITN summer bootcamp program. I ❤️ my
+                    job as a programmer and a relationship manager for a financial institution.</p>
+            </div>
+        </div>
+    </div>
+    <!-- third paragraph -->
+    <div class="px-4 py-5 my-5 text-center" id="My-skills">
+        <h1 class="display-5 fw-bold text-body-emphasis">My Skills</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">I started coding at the age of 24, i wanted to create and build beautiful websites and
+                my passion made me join the GITN community where i have gained handful knowledge on web developement and
+                designs.</p>
+            <!-- fourth paragraph -->
+        </div>
+        <div class="max">
+            <div class="py-5">
+                <h1 class="display-5 fw-bold text-white">Fun Fact</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="fs-5 mb-4">Beside programming, I also help people resolve challenges and give financial
+                        advise where needed. Most importantly I ❤️ food so i spend most of my free time checking out new
+                        restaurants and food. .</p>
+                </div>
+            </div>
+        </div>
+        <!-- fifth paragraph -->
+        <div class="container">
+            <section class="section-preview" id="Contact-me">
+
+                <!--Section: Contact v.2-->
+                <section class="mb-4">
+
+                    <!--Section heading-->
+                    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact me</h2>
+                    <!--Section description-->
+                    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate
+                        to
+                        contact me directly via email.</p>
+
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-9 mb-md-0 mb-5">
+                            <form id="contact-form" name="contact-form" action="obodoesther380@gmail.com" method="POST">
+
+                                <!--Grid row-->
+                                <div class="row">
+
+                                    <!--Grid column-->
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="name" name="name" class="form-control">
+                                            <label for="name" class="">Your name</label>
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+
+                                    <!--Grid column-->
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="email" name="email" class="form-control">
+                                            <label for="email" class="">Your email</label>
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+
+                                </div>
+                                <!--Grid row-->
+
+                                <!--Grid row-->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="subject" name="subject" class="form-control">
+                                            <label for="subject" class="">Subject</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Grid row-->
+
+                                <!--Grid row-->
+                                <div class="row">
+
+                                    <!--Grid column-->
+                                    <div class="col-md-12">
+
+                                        <div class="md-form">
+                                            <textarea type="text" id="message" name="message" rows="2"
+                                                class="form-control md-textarea"></textarea>
+                                            <label for="message">Your message</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!--Grid row-->
+
+                            </form>
+
+                            <div class="text-center text-md-left">
+                                <a class="btn btn-secondary waves-effect waves-light">Send</a>
+                            </div>
+                            <div id="status"></div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-3 text-center">
+                            <ul class="list-unstyled mb-0">
+                                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                                    <p>Lagos, NIGERIA</p>
+                                </li>
+                                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                    <p>obodoesther380@gmail.com</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+
+                </section>
+                <!--Section: Contact v.2-->
+
+            </section>
+        </div>
+        <div class="container1">
+            <a
+                href="https://www.linkedin.com/in/obodo-chisom-esther-7299121a6?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7KsRBBHHRU%2BssxxVv099ew%3D%3D">Linkedin</a>
+            <a href="https://instagram.com/obodo_esther?igshid=MzNlNGNkZWQ4Mg==">instagram</a>
+            <a href="">Website</a>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+            </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
